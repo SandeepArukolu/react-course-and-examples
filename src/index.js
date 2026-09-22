@@ -3,11 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import FunctionalComponent from './Examples/TypesOfComponents/FunctionalComponent'
+import ClassComponent from './Examples/TypesOfComponents/ClassComponent'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <div>
+      <FunctionalComponent/>
+      <ClassComponent/>
+    </div>
+  
   </React.StrictMode>
 );
 
