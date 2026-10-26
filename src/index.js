@@ -11,8 +11,9 @@ root.render(
   <React.StrictMode>
     {/* <App /> */}
     <div>
-      <FunctionalComponent/>
-      <ClassComponent/>
+      <App />
+      {/* <FunctionalComponent/>
+      <ClassComponent/> */}
     </div>
   
   </React.StrictMode>
