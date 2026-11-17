@@ -8,6 +8,8 @@ import ChildComponent from './Examples/PropsPassDataParentToChild/ChildComponent
 import Newfunc from './Examples/DiffrentWaysToCreateFunctions/index'
 import ChildPropsFunc from './Examples/ChildProps';
 import FragmentFunc from './Examples/FragmentsInReact';
+import ReactEventHandling from './Examples/ReactEventHandling';
+
 function App() {
 
   const userObject = [
@@ -31,7 +33,8 @@ function App() {
 <button>Share</button>
 <button>Subscribe</button>
 </ChildPropsFunc> */}
-<FragmentFunc/>
+{/* <FragmentFunc/> */}
+<ReactEventHandling/>
 </>
   );
 }
